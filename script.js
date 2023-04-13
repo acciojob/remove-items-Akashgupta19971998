@@ -3,6 +3,6 @@
 let button=document.getElementById("btn");
 button.addEventListener("click", myFunction);
 function myFunction() {
-    var x = document.getElementById("mySelect");
+    var x = document.getElementById("colorSelect");
     x.remove(x.selectedIndex);
   }
